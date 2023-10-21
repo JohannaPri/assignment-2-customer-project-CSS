@@ -20,6 +20,7 @@ header {
   height: 9vh;
   background-color: black;
   color: white;
+  z-index: 3;
   h1 {
     font-family: 'jockey one', sans-serif;
     text-transform: uppercase;
@@ -34,7 +35,8 @@ header {
 }
 
 .page1-title {
-  margin-top: 70px;
+  position: relative;
+  margin-top: 75px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -43,11 +45,10 @@ header {
   text-transform: uppercase;
   font-family: 'jockey one', sans-serif;
   height: 28vh;
-  border: 2px solid purple;
+  margin-right: 10px;
   .page1-title_tahini {
     color: #00ff38;
     font-size: 4rem;
-    border: 1px solid white;
   }
   .page1-title_drizzle {
     color: #aa75ff;
@@ -63,8 +64,8 @@ header {
   color: #00ff38;
   font-family: 'jockey one', sans-serif;
   background-color: black;
-  width: 100%;
   padding: 16px;
+  margin-right: 10px;
 }
 
 .page1-bottom_arrow1 {
@@ -73,7 +74,9 @@ header {
   rotate: 90deg;
 }
 
-
+.page1-bottom {
+  margin-right: 10px;
+}
 
 
 
