@@ -1,6 +1,85 @@
 @import "./burgermenu";
 
 body {
-    background-color: yellow;
+  background-color: #fff236;
+}
+
+img {
+  width: 100vw;
+  height: auto;
+  object-fit: cover;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  width: 100vw;
+  height: 9vh;
+  background-color: black;
+  color: white;
+  h1 {
     font-family: 'jockey one', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
   }
+}
+
+.page1 {
+  display: flex;
+  flex-direction: column;
+  column-count: 1;
+}
+
+.page1-title {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  text-transform: uppercase;
+  font-family: 'jockey one', sans-serif;
+  height: 28vh;
+  border: 2px solid purple;
+  .page1-title_tahini {
+    color: #00ff38;
+    font-size: 4rem;
+    border: 1px solid white;
+  }
+  .page1-title_drizzle {
+    color: #aa75ff;
+    font-size: 2rem;
+  }
+  .page1-title_chickpeas {
+    color: #fff236;
+
+  }
+}
+
+.page1-main-course {
+  color: #00ff38;
+  font-family: 'jockey one', sans-serif;
+  background-color: black;
+  width: 100%;
+  padding: 16px;
+}
+
+.page1-bottom_arrow1 {
+  display: block;
+  width: 12vw;
+  rotate: 90deg;
+}
+
+
+
+
+
+
+
+
+
+
+
