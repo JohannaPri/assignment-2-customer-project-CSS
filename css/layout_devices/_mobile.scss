@@ -184,6 +184,8 @@ h3 {
   font-family: 'roboto condensed', sans-serif;
   padding-left: 5px;
   font-size: 1rem;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .page2-panel_price {
@@ -193,6 +195,52 @@ h3 {
   font-family: 'jockey one', sans-serif;
   padding-left: 5px;
   font-size: 1.4rem;
+}
+
+.exclusive {
+  position: relative;
+  font-family: 'courier new',monospace;
+  text-transform: uppercase;
+  font-size: 1rem;
+  }
+.exclusive_new {
+  position: absolute;
+  bottom: 2px;
+  left: 180px;
+  background-color: #aa75ff;
+  display: inline-block;
+  padding-left: 15px;
+  padding-right: 15px;
+  transform: rotate(3deg);
+  span {
+    display: block;
+    transform: rotate(-3deg);
+  }
+}
+
+.exclusive_vegan {
+  position: absolute;
+  bottom: 2px;
+  left: 210px;
+  background-color: #00ff38;
+  display: inline-block;
+  padding-left: 15px;
+  padding-right: 15px;
+  transform: rotate(-3deg);
+  span {
+    display: block;
+    transform: rotate(3deg);
+  }
+}
+
+.exclusive_popular {
+  position: absolute;
+  bottom: 2px;
+  left: 110px;
+  background-color: #fff236;
+  display: inline-block;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .page3 {
