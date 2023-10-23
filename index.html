@@ -195,61 +195,51 @@
       </div>
       <div class="page3">
         <section class="page3_section">
-          <h2>book your table</h2>
-          <form>
-            <div>
+          <h3>book your table</h3>
+          <div>
+            <form class="page3_form">
               <label for="name">name</label>
               <input type="text" id="name" placeholder="e.g. Jane doe" required aria-required="true">
-            </div>
-            <div>
               <label for="email">email</label>
               <input type="email" id="email" placeholder="e.g. jane.doe@hotmail.com" required aria-required="true">
-            </div>
-            <div>
               <label for="phone">phone</label>
               <input type="tel" id="phone" placeholder="e.g. (888) 000-0000" required aria-required="true">
-            </div>
-            <div>
               <label for="date">date</label>
               <input type="date" id="date" required aria-required="true">
-            </div>
-            <div>
               <label for="partysize">party size</label>
               <input type="text" id="partysize" placeholder="e.g. 4" required aria-required="true">
-            </div>
-            <div>
               <label for="allergies">allergies</label>
               <input type="text" id="allergies" placeholder="e.g. gluten" required aria-required="false">
-            </div>
-            <div class="page3-section_button">
-              <button class="cancel-button" type="reset" value="cancel">cancel</button>
-              <button class="request-button" type="submit" value="request">request</button>
-            </div>
-          </form>
+              <div class="page3-section_button">
+                <button class="cancel-button" type="reset" value="cancel">cancel</button>
+                <button class="request-button" type="submit" value="request">request</button>
+              </div>
+            </form>
+          </div>
         </section>
         <div class="page3_img">
-          <img src="assets/compressed_photos/contact-info.jpg" 
+          <img class="dining" src="assets/compressed_photos/contact-info.jpg" 
           alt="a dining table, that is blurred out, you can see wine glass, cutlery and stairs"
           width="1024"
           height="683">
-          <address class="page3_contact_info">
-            <ul>
+          <div class="page3_contact_info">
+            <ul class="page3_contact">
               <li>
-                <img src="assets/icons/phone-icon.svg" 
+                <img class="phone" src="assets/icons/phone-icon.svg" 
                 alt="a phone symbol with a clickable number on the right side"
                 width="60"
                 height="60">
                 <a href="tel:+4681234567">+46 8 123 45 67</a>
               </li>
               <li>
-                <img src="assets/icons/email-icon.svg" 
+                <img class="email" src="assets/icons/email-icon.svg" 
                 alt="a email symbol with a clickable email-link in the right side"
                 width="60"
                 height="60">
                 <a href="mailto:book@toughcookie.com">book@toughcookie.com</a>
               </li>
               <li>
-                <img src="assets/icons/location-icon.svg" 
+                <img class="location" src="assets/icons/location-icon.svg" 
                 alt="a symbol for location, on the right side of the symbol we have our address"
                 width="60"
                 height="60">
@@ -259,10 +249,10 @@
                 </div>
               </li>
             </ul>
-          </address>
+          </div>
         </div>
       </div>
-      <footer>
+      <footer class="footer">
         <p>You should accept cookies.</p>
         <div class="footer_panel">
           <button class="decline-buttom" type="submit" value="decline">decline</button>
