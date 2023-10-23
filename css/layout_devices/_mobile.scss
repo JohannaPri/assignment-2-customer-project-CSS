@@ -22,6 +22,7 @@ header {
   color: white;
   z-index: 10;
   h1 {
+    z-index: 1;
     margin: 0;
   }
   font-family: 'jockey one', sans-serif;
@@ -29,7 +30,6 @@ header {
   letter-spacing: 5px;
   min-height: 65px;
   max-height: 65px;
-
 }
 
 .page1 {
@@ -157,7 +157,6 @@ header {
   margin-top: 10px;
 }
 
-
 .page2-top_pic {
   min-height: 150px;
   max-height: 150px; 
@@ -202,7 +201,7 @@ h3 {
   font-family: 'courier new',monospace;
   text-transform: uppercase;
   font-size: 1rem;
-  }
+}
 .exclusive_new {
   position: absolute;
   bottom: 2px;
