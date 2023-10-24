@@ -59,38 +59,36 @@ header {
   margin-right: 10px;
   min-height: 200px;
   max-height: 200px;
-}
-
-.page1-title_tahini {
-  position: absolute;
-  top: 20%;
-  transform: translateY(-50%);
-  left: 50%;
-  transform: translateX(-50%);
-  font-size: 6rem;
-  color: #00ff38;
-  z-index: 3;
-}
-
-.page1-title_chickpeas {
-  position: absolute;
-  top: 64%;
-  transform: translateY(-50%);
-  left: 42%;
-  transform: translateX(-50%);
-  color: #fff236;
-  font-size: 2rem;
-  z-index: 1;
-}
-
-.page1-title_drizzle {
-  position: absolute;
-  top: 20%;
-  transform: translateY(-50%);
-  left: 63%;
-  transform: translateX(-50%);
-  color: #aa75ff;
-  font-size: 2rem;
+  
+  .page1-title_tahini {
+    position: absolute;
+    top: 20%;
+    transform: translateY(-50%);
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 6rem;
+    color: #00ff38;
+    z-index: 3;
+  }
+  .page1-title_chickpeas {
+    position: absolute;
+    top: 65%;
+    transform: translateY(-50%);
+    left: 41%;
+    transform: translateX(-50%);
+    color: #fff236;
+    font-size: 2rem;
+    z-index: 1;
+  }
+  .page1-title_drizzle {
+    position: absolute;
+    top: 20%;
+    transform: translateY(-50%);
+    left: 64%;
+    transform: translateX(-50%);
+    color: #aa75ff;
+    font-size: 2rem;
+  }
 }
 
 .page1-main-course {
@@ -146,7 +144,7 @@ header {
   position: absolute;
   width: 9vw;
   bottom: 9%;
-  left: 34%;
+  left: 38%;
 }
 
 .page1-bottom_menu {
