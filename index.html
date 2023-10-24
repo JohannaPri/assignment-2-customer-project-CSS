@@ -52,13 +52,13 @@
           </button>
           <nav>
             <ul>
-              <li>home</li>
-              <li>menu</li>
-              <li>book a table</li>
+              <a href="#"><li>home</li></a>
+              <a href="#"><li>menu</li></a>
+              <a href="#"><li>book a table</li></a>
             </ul>
           </nav>
         </div>
-        <h1 class="topnav-heading">Though Cookie</h1>
+        <h1 class="topnav-heading">Tough Cookie</h1>
       </header>
 
       <div class="page1">
@@ -108,7 +108,7 @@
               samosa walnut mushroom tart.
             </p>
             <div class="page1-bottom_menu_arrow">
-              <p class="page1-bottom_menu">explore menu</p>
+              <a href="#page2" class="page1-bottom_menu">explore menu</a>
               <img class="page1-bottom_arrow2" src="assets/icons/arrow2.svg" 
               alt="Arrow pointing to right, to direct to menu"
               width="50"
@@ -117,7 +117,7 @@
           </div>
         </div>
       </div>
-      <div class="page2">
+      <div id="page2" class="page2">
         <div class="page2-top">
           <img class="page2-top_pic" src="assets/compressed_photos/salad-bowl.jpg" 
           alt="A salad bowl with different food items around it."
@@ -217,39 +217,37 @@
             </form>
           </div>
         </section>
-        <div class="page3_img">
+        <div class="page3_container">
           <img class="dining" src="assets/compressed_photos/contact-info.jpg" 
           alt="a dining table, that is blurred out, you can see wine glass, cutlery and stairs"
           width="1024"
           height="683">
-          <div class="page3_contact_info">
-            <ul class="page3_contact">
-              <li>
-                <img class="phone" src="assets/icons/phone-icon.svg" 
-                alt="a phone symbol with a clickable number on the right side"
-                width="60"
-                height="60">
-                <a href="tel:+4681234567" class="contact_link">+46 8 123 45 67</a>
-              </li>
-              <li>
-                <img class="email" src="assets/icons/email-icon.svg" 
-                alt="a email symbol with a clickable email-link in the right side"
-                width="60"
-                height="60">
-                <a href="mailto:book@toughcookie.com" class="contact_link">book@toughcookie.com</a>
-              </li>
-              <li>
-                <img class="location" src="assets/icons/location-icon.svg" 
-                alt="a symbol for location, on the right side of the symbol we have our address"
-                width="60"
-                height="60">
-                <div>
-                  <p>Brända Tomten</p>
-                  <p>111 31 Stockholm</p>
-                </div>
-              </li>
-            </ul>
-          </div>
+          <ul class="page3_contact">
+            <li>
+              <img class="phone" src="assets/icons/phone-icon.svg" 
+              alt="a phone symbol with a clickable number on the right side"
+              width="60"
+              height="60">
+              <a href="tel:+4681234567" class="contact_link">+46 8 123 45 67</a>
+            </li>
+            <li>
+              <img class="email" src="assets/icons/email-icon.svg" 
+              alt="a email symbol with a clickable email-link in the right side"
+              width="60"
+              height="60">
+              <a href="mailto:book@toughcookie.com" class="contact_link">book@toughcookie.com</a>
+            </li>
+            <li>
+              <img class="location" src="assets/icons/location-icon.svg" 
+              alt="a symbol for location, on the right side of the symbol we have our address"
+              width="60"
+              height="60"> 
+              <div>
+                <p>Brända Tomten</p>
+                <p>111 31 Stockholm</p>
+              </div>
+            </li>
+          </ul>
         </div>
       </div>
       <footer class="footer">
