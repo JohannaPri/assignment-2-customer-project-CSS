@@ -28,12 +28,12 @@ header {
 
 .page1 {
     display: grid;
-    grid-column: 1 / 11;
+    grid-column: 2 / 11;
     height: 100%;
     margin-top: 0px;
     .page1-top_text {
         display: grid;
-        grid-column: 1 / 5;
+        grid-column: 2 / 5;
         border: 2px solid red;
     }
     .page1_title {
