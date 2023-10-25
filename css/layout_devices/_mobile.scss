@@ -47,6 +47,10 @@ header {
   height: 100%;
 }
 
+.page1-top {
+  height: 100%;
+}
+
 .page1-title {
   position: relative;
   display: flex;
@@ -59,7 +63,7 @@ header {
   margin-right: 10px;
   min-height: 200px;
   max-height: 200px;
-  
+
   .page1-title_tahini {
     position: absolute;
     top: 20%;
