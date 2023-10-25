@@ -1,7 +1,7 @@
 main {
     display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    column-gap: 16px;
+    grid-template-columns: 6vw repeat(11, 1fr);
+    gap: 16px;
 }
 
 header {
@@ -12,40 +12,42 @@ header {
     width: 6vw;
     min-height: 100vh;
     h1 {
-    display: grid;
-    min-height: 100vh;
-    max-height: 100vh;
-    max-width: 6vw;
-    writing-mode: vertical-lr;
-    text-orientation: upright;
-    font-size: 1.8rem;
-    padding-top: 30px;  
-    width: 6vw;
-    align-items: center;
-    word-spacing: 1px;
+        display: grid;
+        min-height: 100vh;
+        max-height: 100vh;
+        max-width: 6vw;
+        writing-mode: vertical-lr;
+        text-orientation: upright;
+        font-size: 2rem;
+        padding-top: 30px;  
+        width: 6vw;
+        align-items: center;
+        word-spacing: 1px;
     }  
 }
 
 .page1 {
     display: grid;
-    grid-column: 2 / 12;
+    grid-column: 1 / 11;
     height: 100%;
-    .page1top__text {
-    display: grid;
-    grid-column: 2 / 6;
-    border: 2px solid red;
+    margin-top: 0px;
+    .page1-top_text {
+        display: grid;
+        grid-column: 1 / 5;
+        border: 2px solid red;
     }
-    .page1top__title {
-    display: grid;
-    grid-column: 7 /12;
-    border: 2px solid red;    
-    width: 50%;
+    .page1_title {
+        display: grid;
+        grid-column: 6 / 11;
+        border: 2px solid red;    
+        width: 40%;
+        margin-top: 0px;
     }
-    .page1bottom__section {
-    display: grid;
-    grid-column: 2 / 6;
-    height: 100%;
-    width: 50%;
+    .page1bottom_images {
+        display: grid;
+        grid-column: 2 / 6;
+        height: 100%;
+        width: 50%;
     }
 }
 
@@ -55,16 +57,16 @@ header {
     grid-column-end: 12;
     height: 100%;
     left: 0;
-    .page2__images {
-        grid-column: 7 /12;
+    .page2-top {
+        grid-column: 2 / 12;
         border: 2px solid red;  
-        width: 50%;
+        width: 100%;
      }
-    .page2__bottom {
+    .page2-bottom {
         display: grid;
-        grid-column: 2 / 6;
+        grid-column: 2 / 12;
         height: 100%;
-        width: 50%;
+        width: 100%;
     }
 }
 
@@ -72,11 +74,11 @@ header {
     display: grid;
     grid-column: 2 / 12;
     height: 100%;
-    .page3__form2 {
+    .page3_form {
         display: grid;
         grid-column: 2 / 6;
     }
-    .page3__container {
+    .page3_container {
         display: grid;
         grid-column: 7 /12;
     } 
