@@ -63,7 +63,6 @@ header {
   margin-right: 10px;
   min-height: 200px;
   max-height: 200px;
-
   .page1-title_tahini {
     position: absolute;
     top: 20%;
@@ -231,6 +230,7 @@ h3 {
   text-transform: uppercase;
   font-size: 1rem;
 }
+
 .exclusive_new {
   position: absolute;
   bottom: 2px;
@@ -297,33 +297,38 @@ h3 {
   display: flex;
   flex-direction: column;
   padding-bottom: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 10px;
   font-size: 1.5rem;
-  .cancel-button {
-    background-color: #aa75ff;
-    padding-left: 30px;
-    padding-right: 30px;
-    text-transform: uppercase;
-    font-size: 1.4rem;
-    border-radius: 10px;
-    margin-top: 20px;
-    margin-right: 10px;
-  }
-  .request-button {
-    background-color: #fff236;
-    padding-left: 30px;
-    padding-right: 30px;
-    text-transform: uppercase;
-    font-size: 1.4rem;
-    border-radius: 10px;
-    margin-top: 20px;
-    margin-left: 10px;
-  }
+}
+.page3__info {
+  display: flex;
+  flex-direction: column;
 }
 
 input {
-  border-radius: 15px;
+  border-radius: 10px;
+}
+
+.cancel-button {
+  background-color: #aa75ff;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-right: 20px;
+ margin-left: 30px;
+}
+.request-button {
+  background-color: #fff236;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-left: 20px;
 }
 
 .page3_container {
@@ -348,8 +353,7 @@ input {
   li {
     display: flex;
     gap: 40px;
-  }
- 
+  } 
 }
 
 .phone {
