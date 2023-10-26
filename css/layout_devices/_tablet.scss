@@ -1,9 +1,205 @@
+nav {
+    font-size: 2.8rem;
+}
 
+.page1-title {
+    justify-content: center;
+    .page1-title_tahini {
+        font-size: 7rem;
+    }
+    .page1-title_chickpeas {
+        font-size: 2.9rem;
+        top: 67%;
+        left: 45%;
+    }
+    .page1-title_drizzle {
+        font-size: 2.9rem;
+        top: 16%;
+        left: 59%;
+    }
+}
 
+.page1-main-course {
+    text-align: center;
+    font-size: 1.6rem;
+    padding-top: 25px;
+    padding-bottom: 30px;
+}
 
+.page1-bottom_arrow1 {
+    bottom: 9%;
+    width: 13vw;
+    &:hover .page1-bottom_arrow1 {
+        transform: rotate(90deg) translateX(20px);
+        transition: transform 1.4s ease-in-out;
+    }
+}
 
+.page1-bottom_text {
+    text-align:justify;
+    font-size: 1.6rem;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px; 
+}
 
+.page1-bottom_arrow2 {
+    width: 8vw;
+    bottom: 9%;
+    left: 32%;
+}
 
+.page1-bottom_menu {
+    font-size: 2.1rem;
+    padding-left: 7px;
+    bottom: 10%;
+}
 
+.page2-top {
+    display: flex;
+    justify-content: center;
+}
 
+.page2-top_pic1 {
+    min-height: 180px;
+    max-height: 180px; 
+    padding-left: 0;
+    padding-right: 5px; 
+}
+      
+.page2-top_pic2 {
+    min-height: 180px;
+    max-height: 180px; 
+    padding-left: 0;
+    padding-right: 5px; 
+}
+      
+.page2-top_pic3 {
+    min-height: 180px;
+    max-height: 180px; 
+    padding-left: 0;
+    padding-right: 0; 
+}
 
+.page2-bottom_panel {
+    display: flex;
+    flex-direction: row;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+h3 {
+    padding-left: 5px;
+    font-size: 1.3rem;
+    letter-spacing: 1.1px;
+}
+
+.page2-panel_description {
+    position: absolute;
+    left: 39%; 
+    bottom: 20%;
+    font-size: 0.9rem;
+}
+
+.page2-panel_price {
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    top: 14%;
+}
+
+.exclusive_new {
+    left: 105%;
+    bottom: 5px;
+    font-size: 0.8rem;
+    padding-left: 15px;
+    padding-right: 15px;
+    transform: rotate(3deg);
+}
+
+.exclusive_vegan {
+    left: 103%;
+    bottom: 6px;
+    font-size: 0.8rem;
+    padding-left: 15px;
+    padding-right: 15px;
+    transform: rotate(3deg);
+}
+
+.exclusive_popular {
+    left: 110%;
+    bottom: 6px;
+    font-size: 0.8rem;
+    padding-left: 15px;
+    padding-right: 15px;
+    transform: rotate(3deg);
+}
+
+.page3_section {
+    h3 {
+        text-align: center;
+        font-size: 2.5rem;
+        padding-bottom: 20px;
+    }
+}
+
+.page3__info {
+    display: flex;
+    flex-direction: row;
+     align-items: center;
+     margin-right: 80px;
+     margin-bottom: 10px;
+     text-align: center;
+     font-size: 1.4rem;
+     
+    label {
+        flex: 1;   
+    }
+    input {
+        width: 60%;
+    }
+}      
+
+.cancel-button {
+    font-size: 1.5rem;
+    padding-left: 90px;
+    padding-right: 90px;
+    margin-left: 60px;
+
+}
+
+.request-button  {
+    font-size: 1.5rem;
+    padding-left: 90px;
+    padding-right: 90px;
+    margin-left: 60px;
+    margin-right: 80px;
+}
+
+.dining {
+   padding-left: 40px;
+   padding-right: 40px;
+}
+
+.page3_contact {
+    top: 100px;
+
+}
+
+footer {
+    max-width: 100%;
+    min-width: 100%;
+ 
+    .footer_text {
+        font-size: 1.2rem;
+    }
+    .decline-buttom {
+        font-size: 1.4rem;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .accept-buttom {
+        font-size: 1.4rem;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
