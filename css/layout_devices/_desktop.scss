@@ -103,10 +103,9 @@ header {
     }
     .page1-bottom_arrow2 {
         width: 6vw;
-        bottom: 6%;
+        bottom: 5%;
         left: 39%;
     }
-
 }
 
 .page2 {
@@ -151,65 +150,99 @@ header {
     grid-template-columns: 1 / 12;
     height: 100%;
     width: 100%;
-    margin: 0;
-    padding: 0;
+    padding-top: 10px;
 }
 
-.page1-bottom_panel {
+.page2-bottom_panel {
     display: flex;
     flex-direction: row;
     margin-left: 0;
+    margin-top: 4px;
+    margin-bottom: 4px;
 }
 
- .page1-bottom_dish {
-    padding-bottom: 2px;
-    padding-top: 2px;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-top: 2px;
-    margin-bottom: 2px;
+ .page2-bottom_dish {
     border-top: 2px solid black;
     border-bottom: 2px solid black;
 }
 
 h3 {
     padding-left: 5px;
-    font-size: 1.7rem;
-    letter-spacing: 3px;
+    font-size: 1.8rem;
+    letter-spacing: 1.5px;
 }
+
 .page2-panel_description {
     position: absolute;
-    left: 40%;
-
+    left: 44%; 
+    bottom: 20%;
+    font-size: 1.2rem;
 }
+
 .page2-panel_price {
     font-size: 1.8rem;
+    letter-spacing: 1px;
 }
+
 .exclusive_new {
-    position: absolute;
-    left: 25%;
-    font-size: 0.7rem;
-    padding-left: 12px;
-    padding-right: 12px;
+    left: 105%;
+    bottom: 10px;
+    font-size: 0.9rem;
+    padding-left: 20px;
+    padding-right: 20px;
     transform: rotate(3deg);
 }
 
+.exclusive_vegan {
+    left: 105%;
+    bottom: 10px;
+    font-size: 0.9rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    transform: rotate(3deg);
+}
+
+.exclusive_popular {
+    left: 110%;
+    bottom: 10px;
+    font-size: 0.9rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    transform: rotate(3deg);
+}
 
 .page3 {
     display: grid;
     grid-column: 2 / 12;
     height: 100%; 
+    border-left: 16px solid white;
+    width: 100%;
+}
+
+.page3_section {
+    display: grid;
+    grid-template-columns: 1 / 5;
+    h3 {
+        font-size: 3rem;
+        padding-left: 20px;
+    }
 }
 
 .page3_form {
-    display: grid;
-    grid-column: 2 / 8;
+    font-family: 'jockey one', sans-serif;
 }
     
 .page3_container {
-    display: grid;
-    grid-column: 8 /12;
+    grid-column: 6 /12;
+    padding-top: 90px;
 } 
+
+.dining {
+    width: 40vw;
+    height: 70vh;
+    min-height: 60vh;
+    max-height: 60vh;
+}
 
 footer {
     display: grid;
@@ -219,6 +252,20 @@ footer {
     max-width: 100%;
     min-width: 100%;
     z-index: 20; 
+    .footer_text {
+        font-size: 1.3rem;
+        padding-left: 90px;
+    }
+    .decline-buttom {
+        font-size: 1.5rem;
+        padding-left: 45px;
+        padding-right: 45px;
+    }
+    .accept-buttom {
+        font-size: 1.5rem;
+        padding-left: 45px;
+        padding-right: 45px;
+    }
 }
 
 
