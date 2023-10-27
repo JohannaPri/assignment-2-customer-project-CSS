@@ -180,8 +180,7 @@ h3 {
 
 
 .page3_contact {
-    left: 57%;
-    top: 20%;
+    left: 55%;
 }
 
 .dining {
@@ -193,21 +192,25 @@ h3 {
 .phone {
     width: 70px;
     padding-bottom: 30px;
-  }
-  
-  .email {
-    height: 60px;
-  }
-  
-  .location {
-    width: 70px;
-    padding-top: 30px;
-  }
-
-
-.page3_contact {
-    text-align: center;
 }
+  
+.email {
+    height: 80px;
+    padding-bottom: 15px;
+}
+  
+.location {
+    width: 70px;
+}
+
+.contact_address {
+    font-size: 1.8rem;
+}
+
+.contact_link {
+    font-size: 1.8rem;
+}
+
 
 footer {
     max-width: 100%;
