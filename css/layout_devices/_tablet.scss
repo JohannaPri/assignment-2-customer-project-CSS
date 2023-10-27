@@ -134,6 +134,9 @@ h3 {
     transform: rotate(3deg);
 }
 
+.page3 {
+    margin-top: 10px;
+}
 .page3_section {
     h3 {
         text-align: center;
@@ -175,14 +178,35 @@ h3 {
     margin-right: 80px;
 }
 
-.dining {
-   padding-left: 40px;
-   padding-right: 40px;
-}
 
 .page3_contact {
-    top: 100px;
+    left: 57%;
+    top: 20%;
+}
 
+.dining {
+    padding-left: 40px;
+    padding-right: 40px;
+       
+}
+
+.phone {
+    width: 70px;
+    padding-bottom: 30px;
+  }
+  
+  .email {
+    height: 60px;
+  }
+  
+  .location {
+    width: 70px;
+    padding-top: 30px;
+  }
+
+
+.page3_contact {
+    text-align: center;
 }
 
 footer {
