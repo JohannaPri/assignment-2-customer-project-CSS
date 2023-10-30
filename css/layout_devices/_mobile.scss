@@ -355,7 +355,7 @@ input {
   flex-direction: column;
   color: #28bcec;
   font-size: 1.5rem;
-  top: 15%;
+  top: 20%;
   left: 50%;
   transform: translateX(-50%);
   list-style: none;
@@ -374,6 +374,7 @@ input {
 
 .email {
   height: 50px;
+  width: 50px;
 }
 
 .location {
