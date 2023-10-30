@@ -39,7 +39,7 @@ header {
     height: 100%;
     margin-right: 10px;
     margin-left: 10px;
-    padding-bottom: 0px;
+    padding-bottom: 0;
     .page1-top {
         display: flex;
         background-color: black;
@@ -147,7 +147,7 @@ header {
     grid-column: span 12;
     height: 100%;
     width: 100%;
-    padding-top: 0px;
+    padding-top: 0;
 }
 
 .page2-bottom_panel {
@@ -310,7 +310,7 @@ h3 {
 footer {
     display: grid;
     grid-column: 1 / 12;
-    bottom: 0px;
+    bottom: 0;
     left: 0;
     max-width: 100%;
     min-width: 100%;
