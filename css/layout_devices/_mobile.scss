@@ -10,6 +10,8 @@ img {
   object-fit: cover;
 }
 
+/* -----------------------------HEADER----------------------------- */
+
 header {
   display: flex;
   flex-direction: row;
@@ -40,6 +42,8 @@ header {
   }
   
 }
+
+/* -----------------------------PAGE 1----------------------------- */
 
 .page1 {
   display: flex;
@@ -162,6 +166,8 @@ header {
   text-decoration: none;
 }
 
+/* -----------------------------PAGE 2----------------------------- */
+
 .page2 {
   position: relative;
   display: flex;
@@ -271,6 +277,8 @@ h3 {
   padding-left: 15px;
   padding-right: 15px;
 }
+
+/* -----------------------------PAGE 3----------------------------- */
 
 .page3 {
   position: relative;
@@ -387,6 +395,8 @@ a {
   color: white;
   text-decoration: none;
 }
+
+/* -----------------------------FOOTER----------------------------- */
 
 .footer {
   display: flex;
