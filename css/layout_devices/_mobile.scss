@@ -325,8 +325,8 @@ input {
 
 .cancel-button {
   background-color: #aa75ff;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 40px;
+  padding-right: 40px;
   text-transform: uppercase;
   font-size: 1.4rem;
   border-radius: 10px;
@@ -337,8 +337,8 @@ input {
 }
 .request-button {
   background-color: #fff236;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 40px;
+  padding-right: 40px;
   text-transform: uppercase;
   font-size: 1.4rem;
   border-radius: 10px;
@@ -359,7 +359,7 @@ input {
   flex-direction: column;
   color: #28bcec;
   font-size: 1.5rem;
-  top: 20%;
+  top: 15%;
   left: 50%;
   transform: translateX(-50%);
   list-style: none;
@@ -423,8 +423,8 @@ a {
 .decline-button {
   background-color: #fff236;
   text-transform: uppercase;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
   border-radius: 10px;
   font-size: 1rem;
   margin-left: 5px;
@@ -435,8 +435,8 @@ a {
 .accept-button {
   background-color: #00ff38;
   text-transform: uppercase;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
   border-radius: 10px;
   font-size: 1rem;
   margin-left: 5px;
