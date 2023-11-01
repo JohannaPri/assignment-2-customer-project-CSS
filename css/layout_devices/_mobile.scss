@@ -333,6 +333,7 @@ input {
   margin-top: 20px;
   margin-right: 20px;
   margin-left: 30px;
+  border: solid transparent;
 }
 .request-button {
   background-color: #fff236;
@@ -343,6 +344,7 @@ input {
   border-radius: 10px;
   margin-top: 20px;
   margin-left: 20px;
+  border: solid transparent;
 }
 
 .page3_container {
@@ -418,7 +420,7 @@ a {
   }
 }
 
-.decline-buttom {
+.decline-button {
   background-color: #fff236;
   text-transform: uppercase;
   padding-left: 20px;
@@ -427,9 +429,10 @@ a {
   font-size: 1rem;
   margin-left: 5px;
   margin-right: 5px;
+  border: solid transparent;
 }
 
-.accept-buttom {
+.accept-button {
   background-color: #00ff38;
   text-transform: uppercase;
   padding-left: 20px;
@@ -438,6 +441,7 @@ a {
   font-size: 1rem;
   margin-left: 5px;
   margin-right: 5px;
+  border: solid transparent;
 }
 
 
